@@ -11,6 +11,7 @@
             height: 100%;
             margin: 0;
             font-family: Arial, sans-serif;
+            overflow: hidden;
         }
 
         header {
@@ -21,10 +22,10 @@
             padding: 20px 40px;
             display: flex;
             align-items: center;
+            z-index: 10;
         }
 
         .logo {
-            width: 40px;
             height: 40px;
             margin-right: 10px;
         }
@@ -36,20 +37,20 @@
         }
 
         .bg {
-            background-image: url('/api/placeholder/1920/1080');
+            background-image: url('background.png');
             height: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
             align-items: center;
+            justify-content: flex-start;
+            padding-left: 40px;
         }
 
         .content {
             color: white;
-            padding: 40px;
             max-width: 800px;
-            margin-top: 60px;
         }
 
         h1 {
@@ -85,14 +86,14 @@
 
 <body>
     <header>
-        <img src="/api/placeholder/40/40" alt="FirestoreModeler Logo" class="logo">
+        <img src="firestore_modeler.png" alt="FirestoreModeler Logo" class="logo">
         <span class="header-title">FirestoreModeler</span>
     </header>
     <div class="bg">
         <div class="content">
-            <h1>Visually Model Your<br>Firestore Database,<br>Instantly Generate Code</h1>
+            <h1>Visually Model Your Firestore Database,<br>Generate Client Code In One Click</h1>
             <p>FirestoreModeler is a visual modeling tool for Firestore, built by developers, for developers.</p>
-            <a href="#" class="btn">Join the Beta</a>
+            <a href="https://app.firestoremodeler.com" class="btn">Join the Beta</a>
         </div>
     </div>
 </body>
