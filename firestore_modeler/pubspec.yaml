@@ -1,0 +1,15 @@
+name: firestore_modeler
+description: Runtime dependencies for FirestoreModeler, a data modeling tool for Firebase's Cloud Firestore
+version: 0.1.0
+repository: https://github.com/pierremrtn/firestore_modeler
+homepage: https://firestoremodeler.com
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  cloud_firestore_odm: ^1.0.0-dev.88
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.24.0
