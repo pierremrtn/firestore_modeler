@@ -2,7 +2,7 @@
 
 A DevTools extension that generates type-safe Dart clients for Firestore.
 
-![Showcase](doc/showcase.gif)
+![Showcase](https://raw.githubusercontent.com/pierremrtn/firestore_modeler/refs/heads/main/firestore_modeler/doc/showcase.gif)
 
 ## Installation
 
@@ -19,8 +19,7 @@ dart pub add firestore_modeler
 **2. Configure the project:**
     Firestore Modeler will prompt you to create a configuration file (firestore_modeler.yaml).
     This file must be the project directory that has `firestore_modeler` listed as a dependency.
-
-    ⚠️ Note: DevTools may have issues with copy/paste operations when used within IDEs. For the initial setup, we recommend using Chrome DevTools instead.
+    > Note: DevTools may have issues with copy/paste operations when used within IDEs. For the initial setup, we recommend using Chrome DevTools instead.
 
 **3. Define your Firestore database schema using the visual editor**
 
