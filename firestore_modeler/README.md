@@ -13,24 +13,19 @@ dart pub add firestore_modeler
 
 # Setup
 
-1. Enable the extension in Dart DevTools
+**1. Enable the extension in Dart DevTools**
 
-2. Configure the package:
+**2. Configure the package:**
+    Firestore Modeler will prompt you to create a configuration file (firestore_modeler.yaml).
+    This file must be the project directory that has `firestore_modeler` listed as a dependency.
 
-Firestore Modeler will prompt you to create a configuration file (firestore_modeler.yaml).
-This file must be in your project directory that has firestore_modeler listed as a dependency.
+    ⚠️ Note: DevTools may have issues with copy/paste operations when used within IDEs. For the initial setup, we recommend using Chrome DevTools instead.
 
+**3. Define your Firestore database schema using the visual editor**
 
-⚠️ Note: DevTools may have issues with copy/paste operations when used within IDEs. For the initial setup, we recommend using Chrome DevTools instead.
-
-
-3. Define your Firestore database schema:
-
-
-4. Generate the client code:
-
-Click the "Generate" button in the bottom right corner
-A firestore_client.dart file will be created next to your firestore_modeler.yaml configuration file
+**4. Generate the client code**
+    Click the "Generate" button in the bottom right corner
+    A firestore_client.dart file will be created next to your firestore_modeler.yaml configuration file
 
 
 # Client Usage
@@ -63,3 +58,8 @@ collectionRef.where[Property]()
 collectionRef.limit()
 collectionRef.select()
 ```
+
+# Useful Links
+For feature requests, please open an issue on [Github](https://github.com/pierremrtn/firestore_modeler/issues)
+Follow me on [Twitter](https://twitter.com/pierremartin_) for development updates
+
