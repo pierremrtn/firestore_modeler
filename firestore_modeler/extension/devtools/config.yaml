@@ -1,0 +1,5 @@
+name: firestore_modeler
+version: 0.0.1
+issueTracker: https://github.com/pierremrtn/firestore_modeler/issues
+materialIconCodePoint: '0xe392'
+requiresConnection: false

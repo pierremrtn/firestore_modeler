@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "firestore_modeler (ext)",
+            "cwd": "firestore_modeler",
+            "request": "launch",
+            "type": "dart",
+            "toolArgs": [
+                "--dart-define=use_simulated_environment=true"
+            ]
+        },
+        {
+            "name": "firestore_modeler (profile mode)",
+            "cwd": "firestore_modeler",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firestore_modeler (release mode)",
+            "cwd": "firestore_modeler",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
