@@ -14,8 +14,9 @@ dart pub add firestore_modeler
 # Setup
 
 **1. Enable the extension in Dart DevTools**
+    To learn more about how about Flutter DevTools, read this article https://docs.flutter.dev/tools/devtools/extensions
 
-**2. Configure the package:**
+**2. Configure the project:**
     Firestore Modeler will prompt you to create a configuration file (firestore_modeler.yaml).
     This file must be the project directory that has `firestore_modeler` listed as a dependency.
 
